@@ -5,7 +5,7 @@ defmodule Darkskyx.Api do
   alias Darkskyx.Parser
   import Darkskyx.Utils
 
-  @base_url "https://api.darksky.net/forecast"
+  @base_url "https://api.pirateweather.net/forecast"
 
   @doc """
   Perform a forecast API call for given latitude longitude
